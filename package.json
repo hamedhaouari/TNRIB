@@ -1,22 +1,25 @@
 {
-  "name": "@mczentechnologies/tnrib",
+  "name": "tnrib-mobile",
   "version": "1.0.0",
-  "description": "Vérificateur de RIB Tunisien",
-  "main": "tnrib.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/McZen-Technologies/TNRIB.git"
+  "dependencies": {
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "@mczentechnologies/tnrib": "^1.0.0",
+    "react-native-paper": "^5.11.1"
   },
-  "keywords": [
-    "RIB"
-  ],
-  "author": "Safouan Besrour",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/McZen-Technologies/TNRIB/issues"
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.14",
+    "typescript": "^5.1.3"
   },
-  "homepage": "https://github.com/McZen-Technologies/TNRIB#readme"
+  "private": true
 }
